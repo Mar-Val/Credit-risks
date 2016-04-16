@@ -1,4 +1,5 @@
-сортировка производится по убыванию скорингового балла!
+You need to sort table decreasing by score. The ranged row of numbers is a probabilities to become 1! The lower the score - the less 
+probability to become default (in this case 1)
 data_1 <- read.table(file = file.choose(), header = TRUE, sep = ";")
 data_sort<-data_1[order(-data_1$FACT),] 
 data_sort<-data_1[order(data_1$FACT),] 
