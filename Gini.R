@@ -1,7 +1,5 @@
 #Ran-is a vector of characteristics, Tar - is a vector of zeroes-ones, dir-direction of sorting.
-#You need to sort table decreasing by score. The ranged row of numbers is a probabilities to become 1! The lower the score - the less 
-probability to become default (in this case 1)
-
+#You need to sort table decreasing by score.
 data_2 <- read.table(file = file.choose(), header = TRUE, sep = ";")
 
 
